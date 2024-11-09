@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.section-one{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(mobileimage/pexels-max-fischer-52127001\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-one .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 10px;
+    background-color:rgb(79, 255, 3);
+    height: 100px;
+}
+.section-one img{
+    width:200px; 
+}
+.section-one .fa-solid{
+    font-size: 30px;
+}
+.section-one .navlink{
+    display: none;
+}
+
+.section-one .menu-link{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    background-color:rgb(76, 225, 13);
+    color: white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    opacity: 0;
+    transform: translatex(100%);
+    transition: transform 0.4s ease, opacity 1s ease;
+    z-index: 2;
+}
+.section-one .fa-solid{
+    color: black;
+    display: flex;
+    justify-content: end;
+
+}
+
+.section-one .menu-link.active {
+    opacity: 1;
+    transform: translatex(0);
+
+}
+
+
+.section-one .menu-link, li{
+    text-decoration: none;
+    list-style: none;
+}
+.section-one .menu-link, a{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+.section-one .hero-section{
+    padding: 30px;
+}
+.section-one .welcometext{
+    font-family: "Fraunces", serif;
+    font-weight:100px;
+    text-align: center;
+    color: rgb(3, 3, 52);
+    font-size: 20px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+}
+.section-one p{
+    font-family: "Questrial", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.section-one h1{
+    font-family: "Fraunces", serif;
+    font-size: 200%;
+    font-weight:500px ;
+    text-align: left;
+    color: white;
+}
+.section-one .hero-section{
+    display: grid;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.section-one .aboutstyle{
+    color:rgb(79, 255, 3) ;
+    font-size:20px;
+    font-family:  "Fraunces", serif;
+}
+.section-one .linkso a{
+    color: white;
+    font-family: "Questrial", sans-serif;
+}
+.section-one .oc {
+    padding: 5px;
+    background-color:rgb(79, 255, 3) ;
+    border-radius: 5px;
+    font-family:"Questrial", sans-serif ;
+}
+.section-one a{
+    text-decoration: none;
+    list-style: none;
+}
+.section-one .su{
+    color: white;
+}
+.section-one button{
+    width: 80px;
+    padding: 4px 8px;
+    background:transparent;
+    border-radius: 5px;
+}
+.section-one .text-col{
+    color: rgb(79, 255, 3);
+}
+
+/* section two begins */
+.section-two{
+    background-color:#F7F5F4 ;
+}
+.section-two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.section-twoo{
+    padding: 10%;
+    display: grid;
+    gap: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.section-two .subheading{
+    color: #20ad96;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family:  "Fraunces", serif;
+    font-weight: 600; 
+}
+.section-two h3{
+    color:#3F3A64 ;
+    line-height: 34px;
+    font-size: 24px
+}
+.section-two p{
+    line-height: 20px;
+    font-family: "Questrial", sans-serif;
+    font-size:13px;
+}
+.section-two .allinone{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+}
+/* all are for the whole */
+.section-two .business, .design{
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px
+}
+.section-two .Photographyy{
+    color: #3f3a64;
+    font-family: "Questrial", sans-serif ;
+    font-weight: 700;
+    padding: 0px 20% 0px 0%;
+}
+.section-two i{
+    color: #20ad96;
+    margin-right: 5px;
+}
+.section-two .iconspaces{
+    display: flex;
+}
+.section-two .iconicc{
+    padding-left: 15px;
+}
+.imagescontainerone, .imagescontainertwo, .imagescontainethree, .imagescontainerfour{
+    padding: 15px;
+} 
+.section-two .coursecontent{
+    display: grid;
+    justify-content: space-between;
+    gap: 10px; }   /* To put space btw busdesign ,photographyy, allicon */
+
+.imagescontainethree .phptext{
+    font-size: 14px;
+    letter-spacing:0px ;
+}
+.imagescontainethree .UserExperience, .designn {
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.imagescontainerfour .financial {
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.imagescontainerfour .phptext{
+    font-size: 14px;
+    letter-spacing:0px;
+    padding: 0px;
+}
+.section-threee{
+    background-color: #d3e7f0;
+    padding: 10px;
+    display: grid;
+    
+}
+.section-threee .testimonialtext{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    padding: 0px 30px;
+
+}
+.testimonialtext .subheading{
+    font-family:  "Fraunces", serif;;
+    font-weight: 600;
+    font-size: 13px;
+    color: #20ad96;
+    letter-spacing: 2px;
+}
+.testimonialtext h3{
+    font-size: 24px;
+    line-height: 20px;
+    color: #3F3A64;
+}
+.testimonialtext p{
+    line-height: 30px;
+    font-size: 16px;
+}
+.section-threee .container{
+    display: grid;
+    gap: 1rem;
+    padding: 40px;
+}
+.container img{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.container .profiletextt{
+    color: #20ad96;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: "Fraunces", serif; 
+}
+.container h4{    
+    font-family:"Questrial", sans-serif ;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #3f3a64;
+    text-align: left;
+}
+.container p{
+    text-align: left;
+    padding-bottom:10px ;
+
+}
+.section-threee .conA, .conB{
+    padding:0px 10px 15px 10px;
+    display: grid;
+    gap: 2rem;
+    background-color: white;
+}
+.section-threee  .subtext, .comment{
+    text-align: center;
+}
+.newletter{
+    padding: 40px;
+    width: max-content;
+    display: grid;
+    background-color:#a9c898  ;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+.newletter h3{
+    font-size: 40px;
+    line-height: 34px;
+    color: #3f3a64;
+}
+.newletterr{
+    font-family: "Fraunces", serif; 
+    font-weight: 600;
+    font-size: 13px;
+    color: #20ad96;
+}
+.newletter  input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+.newletter .buttonn{
+    position: absolute;
+    right: 90px;
+    margin-top: 15px;
+    padding: 15px 3px;
+    background-color: #20ad96;
+    border-radius: 5px;
+}
+.foot {
+color: rgb(0, 0, 0);
+background-color:rgb(62, 96, 47) ; 
+text-align: center;
+padding: 5%;
+}
+.footercl a{
+    color: rgb(114, 22, 22);
+    font-size: large;
+    font-family: "Questrial", sans-serif;
+    text-decoration: none;
+
+}
+.Contactus{
+    color: rgb(0, 0, 0);
+    font-family: "Questrial", sans-serif;
+}
+
+@media screen and (min-width:1024px) {
+
+    .section-one .menu-link,.menu-solid{
+        display: none;
+    }
+
+    .section-one .hero-section{
+    padding: 50px;
+}
+    .navigation{
+        padding: 60px 150px;
+    }
+    .section-one .navlink{
+        display: flex; 
+    }
+    .section-one .fa-solid{
+        display: none;
+    }
+    .section-one ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+        font-size: 20px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    } 
+    .section-one a,li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    .section-one .Contacts{
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+    }
+    .ptext{
+        padding: 10px 50% 10px 0%;
+    }
+    .linkso{
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+.wherelearn{ 
+    padding: 0px 70% 0px 0%;
+}
+/* section two begin  */
+.section-two h3{
+    font-size: 48px;
+}
+.section-two p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size:30px;
+}
+.allinone{
+    grid-template-columns:repeat(4,1fr)
+}
+.section-threee .container{
+    margin-left: 10%;
+    grid-template-columns:repeat(3,1fr);
+}
+.section-threee .conA, .conB{
+    padding:15px 30px 15px 30px;
+    display: grid;
+    gap: 1rem;
+    width:80%;
+}
+.newletter{
+    padding: 40px;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+}
+.newletter .containernew{
+    display: grid;
+    gap: 1rem;
+}
+.newletter input{
+    margin-top: 15px;
+}
+.newletter .buttonn{
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 15px 40px;
+}
+.newletterr{
+    font-size: 30px;
+}
+}
