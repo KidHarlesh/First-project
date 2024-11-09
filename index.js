@@ -10,7 +10,7 @@
 
 window.onload = function () {
   const menulink = document.getElementById("menu-links");
-
+  
   function change() {
     menulink.classList.add("active");
   }
