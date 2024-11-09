@@ -49,7 +49,9 @@
     color: black;
     display: flex;
     justify-content: end;
-
+}
+.fa-bars, .fa-close {
+  cursor: pointer;
 }
 
 .section-one .menu-link.active {
