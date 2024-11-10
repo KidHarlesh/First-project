@@ -20,4 +20,8 @@ function changeback() {
 window.onload = function () {
   document.querySelector(".fa-bars").onclick = change;
   document.querySelector(".fa-close").onclick = changeback;
+  document.querySelector(".homeid").onclick = changeback;
+  document.querySelector(".aboutid").onclick = changeback;
+  document.querySelector(".coursesid").onclick = changeback;
+  document.querySelector(".contactme").onclick = changeback;
 };
